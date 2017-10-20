@@ -29,7 +29,7 @@ e,n,n,n,n,n,n,e,
 e,e,n,n,n,n,e,e`
 --- /collapse ---
 
-+ Locate the section marked **# Pictures** in your code and add some code to open the **pictures.txt** file in read mode (`"r"`). This means that you can read data from the file.
++ Locate the section marked **# Pictures** in your code and add some code to open the `pictures.txt` file in read mode (`"r"`). This means that you can read data from the file.
 
 ```python
 with open("pictures.txt", "r") as f:

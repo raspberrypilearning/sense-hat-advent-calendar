@@ -1,6 +1,6 @@
 ## Display the door
 
-We need a picture to represent the closed door of the advent calendar. The first line in the **pictures.txt** file is a picture of a question mark.
+We need a picture to represent the closed door of the advent calendar. The first line in the `pictures.txt` file is a picture of a question mark.
 
 ![Question mark](images/question-mark.png)
 
