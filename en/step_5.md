@@ -42,15 +42,16 @@ with open("pictures.txt", "r") as f:
   all_pics = f.readlines()
 ```
 
-+ You can test whether this has worked by adding a line into the **main program** section to display a picture of your choice. For example, this code will show the picture for the 7th December which is a candy cane:
++ You can test whether this has worked by adding code into the **main program** section to clear the screen and display a picture of your choice. For example, this code will show the picture for the 7th December which is a candy cane:
 
 ```python
 # ------------------------------------------------
 # MAIN PROGRAM
 # ------------------------------------------------
+sense.clear()
 display_pic(all_pics[7])
 ```
 
-Note that the `display_pic()` function has been written for you inside the starter file.
-
 ![Display candy cane](images/display-candy-cane.png)
+
+Note that the `display_pic()` function is not a built in Python function but has been written for you inside the starter file. It converts the string of letters from the file into a format the Sense HAT can display.
