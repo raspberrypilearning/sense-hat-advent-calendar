@@ -1,6 +1,6 @@
 ## Introduction
 
-Count down to Christmas with your Sense HAT.
+Count down to Christmas with your Sense HAT. Your digital advent calendar will display a new image each day between 1st and 24th December.
 
 ### What you will make
 
