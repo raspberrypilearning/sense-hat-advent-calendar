@@ -12,9 +12,9 @@ Press "Enter" on your keyboard to open today's door and see the picture. However
 
 This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Apply basic programming constructs to solve a problem](https://curriculum.raspberrypi.org/programming/builder/)
++ [Apply basic programming constructs to solve a problem](https://curriculum.raspberrypi.org/programming/builder/){:target="_blank"}
 
-+ [Use basic digital, analogue, and electromechanical components](https://curriculum.raspberrypi.org/physical-computing/creator/)
++ [Use basic digital, analogue, and electromechanical components](https://curriculum.raspberrypi.org/physical-computing/creator/){:target="_blank"}
 
 ### Additional information for educators
 
