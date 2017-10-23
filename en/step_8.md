@@ -43,19 +43,19 @@ if month == "December" and day < 25:
 
 --- collapse ---
 ---
-title: How can I test this if it's not December?
+title: How can I test my code if it's not December?
 ---
-Unless you are doing this project between 1st-24th December, you will always see the message "Keep waiting". If you want to test your message works properly for other days, you can comment out the `strftime` part and put in a test day or month like this:
+Unless you are doing this project between 1st-24th December, you will always see the message "Keep waiting". If you want to test your message works properly for other dates, you can comment out the `strftime` part and put in a test day or month like this:
 
 ```python
 day = 22 #int(strftime("%d"))
 month = "December" #strftime("%B")
 ```
 
-Once you're sure the code works, remove the test day and the `#` to return the code to normal.
+Once you're sure the code works, remove the test day and month and the `#` to return the code to normal.
 --- /collapse ---
 
-+ Finally, let's display the picture as well as showing today's date. Add this code to the `if` part to display the picture for days that are between 1st and 24th December
++ Finally, let's display the picture as well as showing today's date. Add some code to the `if` part to display the picture for days that are between 1st and 24th December, and wait with it on the screen for 5 seconds.
 
 ```python
 if month == "December" and day < 25:
@@ -64,9 +64,9 @@ if month == "December" and day < 25:
     sleep(5)
 ```
 
-![Display image](images/display-image.png)
+![Display image](images/display-image.gif)
 
-+ Finally, we don't want to have to re-run the program every day. Put all of the code in the **main program** section in an infinite loop so that it keeps running forever. Add this code at the start of the section and then indent everything else once so that it is inside the loop.
++ Finally, put all of the code in the **main program** section in an infinite loop so that it keeps running forever. Add this code at the start of the section and then indent everything else once so that it is inside the loop.
 
 ```python
 while True:
