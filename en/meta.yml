@@ -18,4 +18,5 @@ steps:
   - title: Import the pictures
   - title: Display the door
   - title: "What is the date?"
+  - title: Open the door
   - title: "Challenge: stuff"

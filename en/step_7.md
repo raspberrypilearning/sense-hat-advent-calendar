@@ -2,12 +2,6 @@
 
 To know which picture to display behind the door, the program must know what the date is. Python has a built in way of providing you with the current date that you can use.
 
-In the starter file we have already added this line at the top to import the functions `sleep` (for pausing the program) and `strftime` (for getting the current date or time).
-
-```python
-from time import sleep, strftime
-```
-
 + Go to the **main** section of your program and create a variable called `day`. Using the `strftime` function, set the value of the variable to be the current day as a number (e.g. 24 if it is the 24th).
 
 [[[generic-python-strftime]]]
@@ -16,7 +10,7 @@ from time import sleep, strftime
 
 --- hints ---
 --- hint ---
-Look up the correct format string for what you want to see in the [strftime reference](http://strftime.org/). For example, if you wanted to get the current day of the week, the format string you would use would be "%A".
+Look up the correct format string for what you want to see in the [strftime reference](http://strftime.org/){:target="_blank"}. For example, if you wanted to get the current day of the week, the format string you would use would be "%A".
 --- /hint ---
 --- hint ---
 Plug in the format string you looked up into the strftime function, between the brackets.
