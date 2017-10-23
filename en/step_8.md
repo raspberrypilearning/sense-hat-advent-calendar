@@ -65,3 +65,9 @@ if month == "December" and day < 25:
 ```
 
 ![Display image](images/display-image.png)
+
++ Finally, we don't want to have to re-run the program every day. Put all of the code in the **main program** section in an infinite loop so that it keeps running forever. Add this code at the start of the section and then indent everything else once so that it is inside the loop.
+
+```python
+while True:
+```
