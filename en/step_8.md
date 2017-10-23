@@ -11,6 +11,8 @@ if event.action == "pressed" and event.direction == "middle":
   month = strftime("%B")
 ```
 
+If you are using the Sense HAT emulator, you can simulate pressing the joystick by pressing the "Enter" key on your keyboard instead.
+
 You can display a message on the LED matrix using `show_message`.
 
 [[[rpi-sensehat-show-message]]]
