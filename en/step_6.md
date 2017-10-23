@@ -22,11 +22,11 @@ display_pic(door)
 ---
 title: Answer
 ---
-No, you will see the Christmas pudding image, which you already know is the second line in the file.
+No, you will see the Christmas pudding image, which you already know is the _second_ line in the file.
 
-This is because **lists are indexed from 0**. This means that the first item in the list is actually item 0, not item 1! This might be confusing at first, but it is the way that most programming languages work.
+This is because **lists are indexed from 0**, so the first item in the list is actually item 0, not item 1! This might be confusing at first, but it is the way that most programming languages work.
 
-So, the question mark picture is `all_pics[0]` and not `all_pics[1]`.
+So, the first item in the list - the question mark picture - is `all_pics[0]` and not `all_pics[1]`.
 --- /collapse ---
 
-+ Change your code so that the `door` variable contains the correct picture.
++ Change your code so that the `door` variable refers to the question mark picture.
