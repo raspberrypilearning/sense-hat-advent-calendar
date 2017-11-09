@@ -1,6 +1,6 @@
 ## Add colours
 
-+ In the starter code, look for the the section called **colours** which contains this code:
++ In the starter code, look for the the section called `colours` which contains this code:
 
 ```python
 # Colours
@@ -16,11 +16,11 @@ colours = {
 }
 ```
 
-This is a **dictionary** of colours. Each colour has a letter (e.g. `r` for red) and a matching RGB colour list (e.g. [255, 0, 0] which is red).
+This is a **dictionary** of colours. Each colour has a letter (e.g. `r` for red) and a matching RGB colour list (e.g. `[255, 0, 0]`, which is red).
 
 [[[generic-theory-simple-colours]]]
 
-+ Copy the line `'r' : [255, 0, 0],` and paste it immediately underneath itself. Change the `r` to an `o` for orange, and replace the RGB colour for red (`[255, 0, 0]`) with the RGB colour for orange which you can [look up here](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"}.
++ Copy the line `'r' : [255, 0, 0],`, and paste it immediately below itself. Change the `r` to an `o` for orange, and replace the RGB colour for red (`[255, 0, 0]`) with the RGB colour for orange. You can [look up here](https://www.w3schools.com/colors/colors_rgb.asp){:target="_blank"} which values you need.
 
 ![Add a colour](images/add-a-colour.gif)
 
