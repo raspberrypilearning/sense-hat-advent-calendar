@@ -1,10 +1,10 @@
 ## Introduction
 
-Count down to Christmas with your Sense HAT. Your digital advent calendar will display a new image each day between 1st and 24th December.
+Count down to Christmas with your Sense HAT! Your digital advent calendar will display a new image each day between 1 and 24 December.
 
 ### What you will make
 
-Press "Enter" on your keyboard to open today's door and see the picture. However there's no cheating with this calendar - if you try to open a door before December 1st you'll have to keep waiting!
+Check out an example calender in the Trinket emulator below. Press **Enter** on your keyboard to open today's door and see the picture. However, there's no cheating with this calendar — if you try to open a door before 1 December, you'll have to keep waiting!
 
 <iframe src="https://trinket.io/embed/python/b757b2a82f?outputOnly=true&runOption=run&start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
