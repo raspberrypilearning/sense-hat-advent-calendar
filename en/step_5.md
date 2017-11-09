@@ -7,7 +7,7 @@ For example, this is the second line in the file:
 `e,g,g,e,e,g,g,e,e,e,g,r,r,g,e,e,e,e,w,w,w,w,e,e,e,w,n,w,n,n,w,e,
 n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,e,n,n,n,n,n,n,e,e,e,n,n,n,n,e,e`
 
-Can you work out how this line of letters represents the following picture?
+Can you work out how this line of letters represents the following picture of a Christmas pudding?
 
 ![Christmas pud](images/square-paper-image.png)
 
