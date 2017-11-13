@@ -13,18 +13,18 @@ if event.action == "pressed" and event.direction == "middle":
 
 If you are using the Sense HAT emulator, you can simulate pressing the joystick by pressing the **Enter** key on your keyboard instead.
 
-You can display a message on the LED matrix using `show_message`.
-
-[[[rpi-sensehat-show-message]]]
-
 Let's check what date it is and show an appropriate message.
 
 + Add some code to do the following:
-    - If the month is December and the day is any day before the 25th, display the day (converted to a string with `str()`) on the LED matrix using `show_message`
-    - Else display the message "Keep waiting"
+    - If the month is December and the day is any day before the 25th, display the day (converted to a string with `str()`) on the LED matrix
+    - Otherwise (else) display the message "Keep waiting"
 
-Make sure this code is indented so that it only happens when the door is opened
+Make sure this code is indented so that it only runs when the user 'opens' the door.
 ![Indent code](images/indent-code.png)
+
+You can display a message on the LED matrix using `show_message`.
+
+[[[rpi-sensehat-show-message]]]
 
 --- hints ---
 --- hint ---
@@ -32,7 +32,7 @@ Here is some pseudocode to help you:
 `If` the `month` equals `December` and the `day` is less than `25`
 `Show message` - `day` (as a string)
 `Else`
-`Show message - `"Keep waiting"`
+`Show message` - "Keep waiting"`
 --- /hint ---
 --- hint ---
 Here is the code you will need to add:
