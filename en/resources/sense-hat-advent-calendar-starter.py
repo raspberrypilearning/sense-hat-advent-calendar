@@ -9,10 +9,10 @@ sense = SenseHat()
 
 # Colours
 colours = {
-    
+
   'r' : [255, 0, 0],
   # Add orange, yellow, green, blue, indigo, violet here
-  
+
   'n' : [135, 80, 22],
   'w' : [255, 255, 255],
   'e' : [0, 0, 0]  # e stands for empty/black
@@ -20,7 +20,7 @@ colours = {
 }
 
 # Pictures
-door =  "e,e,e,r,r,e,e,e,e,e,r,e,e,r,e,e,e,e,e,e,e,r,e,e,e,e,e,e,r,e,e,e,e,e,e,r,e,e,e,e,e,e,e,r,e,e,e,e,e,e,e,e,e,e,e,e,e,e,e,r,e,e,e,e"
+
 
 # ------------------------------------------------
 # FUNCTIONS
@@ -28,7 +28,7 @@ door =  "e,e,e,r,r,e,e,e,e,e,r,e,e,r,e,e,e,e,e,e,e,r,e,e,e,e,e,e,r,e,e,e,e,e,e,r
 # Display a given picture string on the sense HAT
 # ------------------------------------------------
 def display_pic(pic_string):
-  
+
   # Get rid of newline and split the line into a list
   pic_string = pic_string.strip("\n")
   pic_string = pic_string.split(",")
@@ -37,7 +37,7 @@ def display_pic(pic_string):
   pic_list = []
   for letter in pic_string:
       pic_list.append(colours[letter])
-  
+
   # Display the pixel colours from the file
   sense.set_pixels(pic_list)
 
@@ -46,7 +46,3 @@ def display_pic(pic_string):
 # ------------------------------------------------
 # MAIN PROGRAM
 # ------------------------------------------------
-
-
-
-  
