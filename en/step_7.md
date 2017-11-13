@@ -31,6 +31,13 @@ month = strftime("%B")
 
 The function `strftime` is short for 'string format time', meaning the results you get back are always **strings**.
 
++ To check that you are getting the correct day and month you can print the results. Make sure to delete the print code once you are sure the day and month is being fetched correctly.
+
+```python
+print(day)
+print(month)
+```
+
 + Add code to the line containing your `day` variable to convert its value into an **integer**. For example, if today is the 24th, your variable will contain `"24"`, but we actually want it to contain `24`.
 
 ```python

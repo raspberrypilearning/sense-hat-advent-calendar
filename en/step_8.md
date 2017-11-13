@@ -7,7 +7,7 @@ Now that your program knows the date, it can display the correct picture when th
 ```python
 event = sense.stick.wait_for_event()
 if event.action == "pressed" and event.direction == "middle":
-  today = strftime("%d")
+  today = int(strftime("%d"))
   month = strftime("%B")
 ```
 
@@ -20,8 +20,11 @@ You can display a message on the LED matrix using `show_message`.
 Let's check what date it is and show an appropriate message.
 
 + Add some code to do the following:
-    - If the month is December and the day is any day before the 25th, display the day on the LED matrix using `show_message`
+    - If the month is December and the day is any day before the 25th, display the day (converted to a string with `str()`) on the LED matrix using `show_message`
     - Else display the message "Keep waiting"
+
+Make sure this code is indented so that it only happens when the door is opened
+![Indent code](images/indent-code.png)
 
 --- hints ---
 --- hint ---
