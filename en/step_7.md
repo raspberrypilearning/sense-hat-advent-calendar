@@ -31,7 +31,7 @@ month = strftime("%B")
 
 The function `strftime` is short for 'string format time', meaning the results you get back are always **strings**.
 
-+ To check that you are getting the correct day and month you can print the results. Make sure to delete the print code once you are sure the day and month is being fetched correctly.
++ To check that you are getting the correct day and month, you can print the results of your `strftime` commands. Make sure to delete the `print` statements once you are sure the day and month are being fetched correctly.
 
 ```python
 print(day)
