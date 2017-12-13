@@ -2,6 +2,18 @@
 
 To know which picture to display when you open the door, the program needs to know what the date is. Python has a built-in way of providing you with the current date.
 
+--- collapse ---
+---
+title: Set the correct date and time on a Raspberry Pi
+---
+If you are using a Raspberry Pi to complete this resource and you are not connected to the internet, you may need to set the correct date. Open a terminal and type the following command to set the date and time, replacing the values below with the current date and time.
+
+```
+sudo date --set 'yyyy-mm-dd hh:mm:ss'
+```
+
+--- /collapse ---
+
 + Go to the **main section** of your program and create a variable called `day`. Using the `strftime` function, set the value of the variable to be the number of the current day of the month (e.g. `24` if it is the 24th).
 
 [[[generic-python-strftime]]]
