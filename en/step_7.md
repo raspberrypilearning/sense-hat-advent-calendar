@@ -6,7 +6,7 @@ To know which picture to display when you open the door, the program needs to kn
 ---
 title: Set the correct date and time on a Raspberry Pi
 ---
-If you are using a Raspberry Pi to complete this resource and you are not connected to the internet, you may need to set the correct date. Open a terminal and type the following command to set the date and time, replacing the values below with the current date and time.
+If you are using a Raspberry Pi to complete this resource and it is not connected to the internet, you may need to set the correct date. Open a terminal window and type the following command to set the date and time, replacing `'yyyy-mm-dd hh:mm:ss'` with the current date and time.
 
 ```
 sudo date --set 'yyyy-mm-dd hh:mm:ss'
