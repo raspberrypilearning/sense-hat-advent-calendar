@@ -24,4 +24,4 @@ This is a **dictionary** of colours. Each colour has a letter (e.g. `r` for red)
 
 ![Add a colour](images/add-a-colour.gif)
 
-+ Add the colours yellow (y), green (g), blue (b), indigo (i) and violet (v) in the same way.
++ Add the colours yellow (y), green (g), blue (b), indigo (i) and violet (v) in the same way, making sure to keep the colours that are already in the list.

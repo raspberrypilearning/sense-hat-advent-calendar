@@ -13,12 +13,14 @@ if event.action == "pressed" and event.direction == "middle":
 
 If you are using the Sense HAT emulator, you can simulate pressing the joystick by pressing the **Enter** key on your keyboard instead.
 
-Let's check what date it is and show an appropriate message. You can display a message on the LED matrix using `show_message`.
+Let's check what date it is and show an appropriate message. You can display a message on the LED matrix using `show_message`. For example, here is how you would display the `month` as a scrolling message.
 
-[[[rpi-sensehat-show-message]]]
+```python
+sense.show_message( str(month) )
+```
 
 + Add some code to do the following:
-    - If the month is December and the day is any day before the 25th, display the day (converted to a string with `str()`)
+    - If the month is December and the day is any day before the 25th, display the **day** (converted to a string with `str()`)
     - Otherwise (else) display the message "Keep waiting"
 
 Make sure this code is indented so that it only runs when the user 'opens' the door.
@@ -44,9 +46,11 @@ if month == "December" and day < 25:
 --- /hint ---
 --- /hints ---
 
++ Run your program and test whether you see a date or the message `"Keep waiting"`.
+
 --- collapse ---
 ---
-title: How can I test my code if it's not December?
+title: How can I test my code fully if it's not December?
 ---
 Unless you are doing this project between the 1st and 24th of December, you will always see the message "Keep waiting". If you want to test whether your message works properly for other dates, you can comment out the `strftime` part and put in a test day and/or month like this:
 
