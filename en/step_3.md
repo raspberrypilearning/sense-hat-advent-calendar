@@ -6,7 +6,7 @@
 
 [[[rpi-sensehat-attach]]]
 
-+ Right click the following links and select "Save as" to download the [starter code](resources/sense-hat-advent-calendar-starter.py){:target="_blank"} and [pictures file](resources/pictures.txt){:target="_blank"}. Save both files in the same folder.
++ Right-click the following links and select **Save as** to download the [starter code](resources/sense-hat-advent-calendar-starter.py){:target="_blank"} and [pictures file](resources/pictures.txt){:target="_blank"}. Save both files in the same folder.
 
 NOTE: The pictures file actually contains text rather than pictures. You will find out how the text becomes pictures when you complete the resource!
 
