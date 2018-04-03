@@ -2,21 +2,25 @@ title: Sense HAT advent calendar
 hero_image: images/banner.png
 description: Count down to Christmas with your Sense HAT
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 2 # possible values: 1, 2 or 3
+duration: 2
 listed: true
 ingredient: false
 copyedit: true
-curriculum: creator, design-1, programming-2, phys-comp-0, manufacture-0, community-0
-interests: ""
-technologies: "sense-hat, physical computing, python"
-site_areas:
-steps:
-  - title: Introduction
-  - title: What you will need
-  - title: Get set up
-  - title: Add colours
-  - title: Import the pictures
-  - title: Display the door
-  - title: "What is the date?"
-  - title: Open the door
-  - title: "Challenge: add more"
+curriculum: 2, design-1, programming-2, phys-comp-0, manufacture-0, community-0
+interests: ''
+technologies: sense-hat, electronic-components, python
+site_areas: projects
+hardware: sense-hat, electronic-components
+software: python
+version: 4
+last_tested: 2017-12-01
+steps: 
+- title: Introduction
+- title: What you will need
+- title: Get set up
+- title: Add colours
+- title: Import the pictures
+- title: Display the door
+- title: "What is the date?"
+- title: Open the door
+- title: "Challenge: add more"
