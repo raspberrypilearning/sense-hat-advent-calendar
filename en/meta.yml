@@ -18,12 +18,14 @@ last_tested: 2017-12-01
 steps:
 - title: Introduction
 - title: What you will need
-  completion: engaged
 - title: Get set up
 - title: Add colours
+  completion:
+  - engaged
 - title: Import the pictures
 - title: Display the door
 - title: What is the date?
 - title: Open the door
-  completion: internal
+  completion:
+  - internal
 - title: 'Challenge: add more'
