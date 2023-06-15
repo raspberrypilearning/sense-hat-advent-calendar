@@ -64,7 +64,7 @@ A **string** is a piece of text, whereas an **integer** is a whole number. We mi
 
 Let's say we left the value of `day` as a string and today is the 23rd. If you asked Python to double that number, you would expect to get `"46"`. But as you can see below, that's not the case!
 
-![String without casting](images/string-cast.gif)
+![Animation showing code written in an editor, carrying out a calculation with data stored as a string which has not been casted to the correct data type](images/string-cast.gif)
 
 This is because the data is behaving like text, so two lots of `"23"` is `"2323"`. If we want `day` to behave like an integer, we must convert it to an integer.
 
